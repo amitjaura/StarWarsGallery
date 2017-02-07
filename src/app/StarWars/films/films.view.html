@@ -1,0 +1,25 @@
+<div class="row">
+<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+    <ul class="event-list">
+        <li *ngFor="let film of films">
+            <!--<time>
+                <span class="day">{{film.producer}}</span>
+                <span class="day">{{film.director}}</span>
+            </time>-->
+            
+            
+            <div class="info">
+                <h2 class="title">{{film.title}}</h2>
+                <p class="desc">{{film.opening_crawl}}</p>
+            </div>
+            <!--<div class="social">
+                <span class="producer">{{film.release_date | date}}</span>
+            </div>-->
+            <div class="credits">
+              <span class="director">{{film.director}}</span>
+              <span class="producer">{{film.producer}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
+</div>

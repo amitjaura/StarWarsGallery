@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  templateUrl: `app/views/greet.html`
+  templateUrl: `app/views/entry.html`
 })
 
-export class AppComponent  { name = 'Amit Jaura'; greet='Welcome to Angular2' }
+export class AppComponent{}

@@ -11,12 +11,20 @@
 		margin: 0px;
 		padding: 0px;
 	}
-	.event-list > li {
+	.event-list > div {
 		background-color: rgb(255, 255, 255);
 		box-shadow: 0px 0px 5px rgb(51, 51, 51);
 		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
 		padding: 0px;
 		margin: 0px 0px 20px;
+		width: 70%;
+	}
+	.event-list > div .title{
+		font-size: 30pt;
+	}
+
+	.event-list>div .starcast{
+		text-align: -webkit-right;
 	}
   .credits{
     background-color: rgb(245, 245, 245);
@@ -48,8 +56,8 @@
 		font-weight: 700;
 		margin: 0px;
 	}
-	.event-list > li > .info > .desc {
-		font-size: 13pt;
+	.event-list .desc {
+		font-size: 8pt;
 		font-weight: 300;
 		margin: 0px;
 	}
@@ -61,16 +69,16 @@
 			height: 150px;
 			padding: 0px;
 		}
-		.event-list > li > .info {
+		.event-list  .info {
 			background-color: rgb(245, 245, 245);
 			overflow: hidden;
 		}
-		.event-list > li > .info {
+		.event-list .info {
 			position: relative;
 			height: 110px;
 			text-align: left;
 		}	
-		.event-list > li > .info > .desc {
+		.event-list > .info > .desc {
 			padding: 0px 10px;
 		}
 		.event-list > li > .info > ul {

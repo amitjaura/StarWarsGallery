@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  templateUrl: `app/views/entry.html`
+  templateUrl: `app/views/main.html`
 })
 
 export class AppComponent{}

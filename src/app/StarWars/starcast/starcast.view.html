@@ -1,1 +1,31 @@
-id is {{starcast.id}}
+<div class="container">
+    <div class="row">
+        <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]" class="event-list">
+            <div *ngFor="let starcast of starcasts" class="row pd10">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h1><b>{{starcast.name}}</b></h1>
+                    </div>
+                    <div class="col-xs-4">
+                        {{starcast.homeworld}}
+                    </div>
+                    <div class="col-xs-4">
+                        Height: {{starcast.height}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                       Hair Color: {{starcast.hair_color | uppercase}}
+                    </div>
+                    <div class="col-xs-4">
+                        Skin Color: {{starcast.skin_color | uppercase}}
+                    </div>
+                    <div class="col-xs-4">
+                        Eye Color:{{starcast.eye_color | uppercase}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

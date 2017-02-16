@@ -81,9 +81,8 @@
 		.event-list > .info > .desc {
 			padding: 0px 10px;
 		}
-		.event-list > li > .info > ul {
-			position: absolute;
-			left: 0px;
-			bottom: 0px;
-		}
+	}
+
+	.pd10{
+		padding: 10px !important;
 	}
